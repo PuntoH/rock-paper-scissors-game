@@ -1,1 +1,1 @@
-The classic rock paper scissors game where you can play against the computer. You can either play one game at a time (free style), or if you dare, you can play a five round match.
+The classic rock paper scissors game where you can play against the computer. Built with HTML, CSS and vanilla Javascript.

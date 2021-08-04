@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #407088;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    font-family: monospace;
+    color: #fafafa;
+    background-color: #132743;
+    height: 100vh;
+    width: 600px;
+    border: solid #fafafa 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 3px;
+}
+
+#versus-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 270px;
+}
+
+#versus-container p {
+    font-size: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.result-text {
+    font-size: 20px;
+    margin: 20px auto 40px;
+}
+
+.buttons-container {
+    height: 150px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.play-button {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: #fafafa solid 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    width: 120px;
+    height: 120px;
+    background-color: #431327;
+}
+
+.score-container {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-container p {
+    font-size: 20px;
+    height: 70%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border: solid #fafafa 2px;
+}

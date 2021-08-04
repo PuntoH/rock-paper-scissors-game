@@ -8,10 +8,27 @@
     <title>Rock paper scissors</title>
 </head>
 <body>
-    
+    <main>
+        <h1>Rock Paper Scissors!</h1>
 
+        <div id="versus-container">
+            <p>?</p> <p id="versus-paragraph">vs</p> <p>?</p>
+        </div>
 
+        <p class="result-text">Pick your move... but choose carefully!</p>
+        
+        <div class="buttons-container">
+            <img src="images/choose-rock.png" alt="hand doing the rock move" class="play-button" id="rock"/>
+            <img src="images/choose-paper.png" alt="hand doing the paper move" class="play-button" id="paper"/>
+            <img src="images/choose-scissors.png" alt="hand doing the scissors move" class="play-button" id="scissors"/>
+        </div>
 
+        <div class="score-container">
+            <p id="score-player">Player: 0</p>
+            <p id="score-computer">Computer: 0</p>
+        </div>
+
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
